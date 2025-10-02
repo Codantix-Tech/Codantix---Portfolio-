@@ -8,6 +8,8 @@ import { Torus, Points, OrbitControls, shaderMaterial } from '@react-three/drei'
 import Image from 'next/image';
 import IdeaBulbCursor from './IdeaBulbCursor';
 
+
+
 // Custom shader material for particles
 const ParticleMaterial = shaderMaterial(
   {
@@ -220,7 +222,7 @@ function Hero({ counters = { projects: 50, leads: 10000, support: 24 } }) {
               </span>
             </IdeaBulbCursor>{' '}
             with
-            <span className="bg-gradient-to-r from-sky-400 to-blue-800 bg-clip-text text-transparent font-extrabold">
+              <span className="bg-gradient-to-r from-sky-400 to-blue-800 bg-clip-text text-transparent font-extrabold">
               Codantix
             </span>
           </h1>
@@ -273,10 +275,10 @@ function Hero({ counters = { projects: 50, leads: 10000, support: 24 } }) {
               muted
               playsInline
             >
-              <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4" />
+              <source src='/comingsoon.mp4' type="video/mp4" />
               Your browser does not support the video tag.
             </video>
-            <p className="text-sm text-slate-500 mt-2">[Placeholder Video - Replace with Your Own]</p>
+            <p className="text-sm text-slate-500 mt-2">have any question Please let us know </p>
           </div>
 
           <div
